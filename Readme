@@ -1,0 +1,3 @@
+ python main.py -t JSON -f error.log -p test ( untuk pindah lokasi file -p )
+ python main.py -t JSON -f error.log (convert to JSON)
+ python main.py -t CSV -f error.log (convert to CSV)
