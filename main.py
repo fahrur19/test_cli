@@ -24,7 +24,7 @@ if args.t == 'JSON':
         with open('error.json', 'w') as fp:
             json.dump(result, fp)
     else:
-        with open('{}/error.json', 'w') as fp:
+        with open('{},error.json'.format(path), 'w') as fp:
             json.dump(result, fp)
 
 elif args.t == 'CSV':
